@@ -14,6 +14,7 @@ nav:
           - BME Sensor Analytics using Redis TimeSeries, Grafana and Docker: nvidia/redis-grafana-docker.md
           - BME Sensor Analytics using Neo4j, Grafana and Docker: nvidia/bme680-jetson-neo4j.md
           - OLED Display using Groove Hat on Jetson Nano: nvidia/oled-groove-jetson.md
+     - Ollama on Jetson Nano: nvidia/ollama-on-jetson-nano.md
   - NVIDIA AGX Xavier:
      - Getting Started: nvidia/jetson-xavier.md
      - Installing Docker on NVIDIA Jetson Xavier: nvidia/docker-on-xavier.md
