@@ -9,17 +9,17 @@
       
       
       
-        <link rel="prev" href="../redis-grafana-docker/">
+        <link rel="prev" href="../oled-groove-jetson/">
       
       
-        <link rel="next" href="../ollama-on-jetson-nano/">
+        <link rel="next" href="../jetson-xavier/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.15">
     
     
       
-        <title>OLED Display using Groove Hat on Jetson Nano - IoETPlanet</title>
+        <title>Ollama on Jetson Nano - IoETPlanet</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#feature" class="md-skip">
+        <a href="#pre-requisite" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              OLED Display using Groove Hat on Jetson Nano
+              Ollama on Jetson Nano
             
           </span>
         </div>
@@ -377,16 +377,14 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
       
       
       
@@ -395,7 +393,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3_3">
           <span class="md-nav__icon md-icon"></span>
           Projects
@@ -434,104 +432,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          OLED Display using Groove Hat on Jetson Nano
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../oled-groove-jetson/" class="md-nav__link">
         OLED Display using Groove Hat on Jetson Nano
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#feature" class="md-nav__link">
-    Feature
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    Getting Started
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-1-plug-the-grove-base-hat-into-jetson-nano" class="md-nav__link">
-    Step 1. Plug the Grove Base Hat into Jetson Nano
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-2-connect-oled" class="md-nav__link">
-    Step 2. Connect OLED
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-3-installation" class="md-nav__link">
-    Step 3. Installation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-4-using-i2cdetect-command" class="md-nav__link">
-    Step 4. Using i2cdetect command
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-5-running-the-python-script" class="md-nav__link">
-    Step 5. Running the Python Script
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-6-executing-the-script" class="md-nav__link">
-    Step 6. Executing the script
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#results" class="md-nav__link">
-    Results:
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -548,11 +453,193 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../ollama-on-jetson-nano/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Ollama on Jetson Nano
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Ollama on Jetson Nano
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pre-requisite" class="md-nav__link">
+    Pre-requisite
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software" class="md-nav__link">
+    Software
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-your-jetson-nano" class="md-nav__link">
+    Preparing Your Jetson Nano
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparing Your Jetson Nano">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-0-verify-the-jetson-device" class="md-nav__link">
+    Step 0. Verify the Jetson device
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1-update-the-apt-repository" class="md-nav__link">
+    Step 1. Update the APT repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-install-the-curl-package" class="md-nav__link">
+    Step 2. Install the curl package
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-install-ollama" class="md-nav__link">
+    Step 3. Install Ollama
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-explore-the-ollama-cli" class="md-nav__link">
+    Step 4. Explore the Ollama CLI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-list-available-models" class="md-nav__link">
+    Step 5. List Available Models
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-run-a-model" class="md-nav__link">
+    Step 6. Run a model
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrating-open-webui-with-ollama" class="md-nav__link">
+    Integrating Open WebUI with Ollama
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-stop-the-ollama-service" class="md-nav__link">
+    Step 1: Stop the Ollama Service
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-run-ollama-with-docker" class="md-nav__link">
+    Step 2. Run Ollama with Docker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-run-open-webui" class="md-nav__link">
+    Step 3. Run Open WebUI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-verify-running-containers" class="md-nav__link">
+    Step 4. Verify Running Containers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    Results:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bundled-installation-of-open-webui-with-ollama" class="md-nav__link">
+    Bundled Installation of Open WebUI with Ollama
+  </a>
+  
+    <nav class="md-nav" aria-label="Bundled Installation of Open WebUI with Ollama">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-gpu" class="md-nav__link">
+    Using GPU
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-cpu-only" class="md-nav__link">
+    Using CPU only
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -764,57 +851,112 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#feature" class="md-nav__link">
-    Feature
+  <a href="#pre-requisite" class="md-nav__link">
+    Pre-requisite
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    Getting Started
+  <a href="#software" class="md-nav__link">
+    Software
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-1-plug-the-grove-base-hat-into-jetson-nano" class="md-nav__link">
-    Step 1. Plug the Grove Base Hat into Jetson Nano
+  <a href="#preparing-your-jetson-nano" class="md-nav__link">
+    Preparing Your Jetson Nano
+  </a>
+  
+    <nav class="md-nav" aria-label="Preparing Your Jetson Nano">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-0-verify-the-jetson-device" class="md-nav__link">
+    Step 0. Verify the Jetson device
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-1-update-the-apt-repository" class="md-nav__link">
+    Step 1. Update the APT repository
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-install-the-curl-package" class="md-nav__link">
+    Step 2. Install the curl package
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-install-ollama" class="md-nav__link">
+    Step 3. Install Ollama
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-explore-the-ollama-cli" class="md-nav__link">
+    Step 4. Explore the Ollama CLI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-list-available-models" class="md-nav__link">
+    Step 5. List Available Models
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-6-run-a-model" class="md-nav__link">
+    Step 6. Run a model
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrating-open-webui-with-ollama" class="md-nav__link">
+    Integrating Open WebUI with Ollama
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-connect-oled" class="md-nav__link">
-    Step 2. Connect OLED
+  <a href="#step-1-stop-the-ollama-service" class="md-nav__link">
+    Step 1: Stop the Ollama Service
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-installation" class="md-nav__link">
-    Step 3. Installation
+  <a href="#step-2-run-ollama-with-docker" class="md-nav__link">
+    Step 2. Run Ollama with Docker
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-4-using-i2cdetect-command" class="md-nav__link">
-    Step 4. Using i2cdetect command
+  <a href="#step-3-run-open-webui" class="md-nav__link">
+    Step 3. Run Open WebUI
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-5-running-the-python-script" class="md-nav__link">
-    Step 5. Running the Python Script
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#step-6-executing-the-script" class="md-nav__link">
-    Step 6. Executing the script
+  <a href="#step-4-verify-running-containers" class="md-nav__link">
+    Step 4. Verify Running Containers
   </a>
   
 </li>
@@ -822,6 +964,40 @@
         <li class="md-nav__item">
   <a href="#results" class="md-nav__link">
     Results:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bundled-installation-of-open-webui-with-ollama" class="md-nav__link">
+    Bundled Installation of Open WebUI with Ollama
+  </a>
+  
+    <nav class="md-nav" aria-label="Bundled Installation of Open WebUI with Ollama">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#using-gpu" class="md-nav__link">
+    Using GPU
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-cpu-only" class="md-nav__link">
+    Using CPU only
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    Conclusion
   </a>
   
 </li>
@@ -841,366 +1017,176 @@
                   
 
 
-  <h1>OLED Display using Groove Hat on Jetson Nano</h1>
+  <h1>Ollama on Jetson Nano</h1>
 
-<p>Grove Shield for Jetson Nano is an expansion board for Jetson Nano, designed by Seeed Studio, for the orderliness of your connected sensors when you develop projects with Pi. It maintains 24-Pin GPIO and provides 15 additional Grove ports based on the MM32 chip, along with other interfaces, giving you a great and quick development experience.</p>
-<h2 id="feature">Feature</h2>
+<p>NVIDIA Jetson devices are powerful platforms designed for edge AI applications, offering excellent GPU acceleration capabilities to run compute-intensive tasks like language model inference. </p>
+<p>With official support for NVIDIA Jetson devices, Ollama brings the ability to manage and serve Large Language Models (LLMs) locally, ensuring privacy, performance, and offline operation. By integrating Open WebUI, you can enhance your workflow with an intuitive web interface for managing these models.</p>
+<p>This guide will walk you through setting up Ollama on your Jetson device, integrating it with Open WebUI, and configuring the system for optimal GPU utilization. Whether you're a developer or an AI enthusiast, this setup allows you to harness the full potential of LLMs right on your Jetson device.</p>
+<h2 id="pre-requisite">Pre-requisite</h2>
+<ol>
+<li><a href="https://developer.nvidia.com/embedded/jetson-nano">Jetson Nano</a></li>
+<li>A 5V 4Ampere Charger</li>
+<li>64GB SD card</li>
+<li>WiFi Adapter</li>
+<li>Wireless Keyboard</li>
+<li>Wireless mouse</li>
+</ol>
+<p><img alt="Image32" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cw8ms0ek90od5rrhd0uv.png" /></p>
+<h2 id="software">Software</h2>
 <ul>
-<li>Grove &amp; GPIO Pi Hat for Raspberry Pi Series: Break out all the pins and power of the Raspberry Pi to provide 15 multi-function. Grove ports and compatible 24-Pin GPIO based on a 12-bit ADC MM32 chip</li>
-<li>Rich Peripherals for Grove: Provide 15 Grove ports including 3× I2C, 1× UART, 6× Digital, and 4× Analog, which also contains 1x PWM port, and the SWD Debug interface.</li>
-<li>Plug and Play: Benefit from convenient Grove connectors that supports more than 60 Grove modules</li>
+<li>Download Jetson SD card image from <a href="https://developer.nvidia.com/embedded/downloads">this link</a></li>
+<li>Raspberry Pi Imager installed on your local system</li>
 </ul>
-<h2 id="getting-started">Getting Started</h2>
-<h2 id="step-1-plug-the-grove-base-hat-into-jetson-nano">Step 1. Plug the Grove Base Hat into Jetson Nano</h2>
-<p><img alt="Image01" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r38f2ni8boo4bmikncxb.png" /></p>
-<h2 id="step-2-connect-oled">Step 2. Connect OLED</h2>
-<p><img alt="Image1" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sib3kyv927ywgsrks16p.png" /></p>
-<h2 id="step-3-installation">Step 3. Installation</h2>
-<pre><code>curl -sL https://github.com/Seeed-Studio/grove.py/raw/master/install.sh | sudo bash -s -
+<h2 id="preparing-your-jetson-nano">Preparing Your Jetson Nano</h2>
+<ol>
+<li>Unzip the SD card image</li>
+<li>Insert SD card into your system.</li>
+<li>Bring up Raspberry Pi Imager tool to flash image into the SD card</li>
+</ol>
+<h3 id="step-0-verify-the-jetson-device">Step 0. Verify the Jetson device</h3>
+<p><img alt="Image1" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rar7xc470wz6m9wk6nu0.png" /></p>
+<p>Begin by verifying the L4T (Linux for Tegra) version on your Jetson device. Each Jetson platform runs a specific JetPack version tied to an L4T release. To check your configuration:</p>
+<pre><code>cat /etc/nv_tegra_release
+# R32 (release), REVISION: 7.1, GCID: 29818004, BOARD: t210ref, EABI: aarch64, DATE: Sat Feb 19 17:05:08 UTC 2022
 </code></pre>
-<p>if everything goes well, you will see the following notice.</p>
-<pre><code>...
-...
-#######################################################
-  Lastest Grove.py from github install complete   !!!!!
-#######################################################
+<p>This output confirms the device is using L4T R32.7.1, compatible with JetPack 4.6.1. Ensure your Jetson device is updated to the latest supported L4T version to avoid compatibility issues.</p>
+<h3 id="step-1-update-the-apt-repository">Step 1. Update the APT repository</h3>
+<p>Ensure your system is up to date to avoid errors during the installation of dependencies:</p>
+<pre><code>sudo apt update
 </code></pre>
-<p>If you use the I2C tool to scan the I2C address of the grove module, you may find two or more address. 0x04 is the adrress of the Grove Base Hat for Raspberry Pi.</p>
-<h2 id="step-4-using-i2cdetect-command">Step 4. Using i2cdetect command</h2>
-<pre><code> i2cdetect -r -y 1
-     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
-00:          -- -- -- -- -- 08 -- -- -- -- -- -- -- 
-10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-30: -- -- -- -- -- -- -- -- -- -- -- -- 3c -- -- -- 
-40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-70: -- -- -- -- -- -- 76 --                  
+<h3 id="step-2-install-the-curl-package">Step 2. Install the curl package</h3>
+<p>The Ollama installation script requires curl to fetch and execute:</p>
+<pre><code>sudo apt install curl
 </code></pre>
-<p>This is the output of the i2cdetect command, which is used to scan for I2C (Inter-Integrated Circuit) devices connected to a system. The command lists the I2C device addresses found on bus 1 (-y 1).</p>
-<p>The first row represents the I2C addresses in hexadecimal form (0x00 to 0x7F). The following rows indicate the presence of an I2C device at the corresponding address by showing a two-digit hexadecimal number. An empty cell (--) means that there is no device at the corresponding address.</p>
-<p>Based on the output, there are two I2C devices detected at addresses 0x3c and 0x76. The address 0x3c might correspond to a display controller or a sensor, while the address 0x76 might correspond to a barometer or a temperature sensor.</p>
-<p>It is important to note that this output only indicates the presence of the I2C devices and not their functionality. Further testing and analysis are required to determine if the devices are working correctly.</p>
-<h2 id="step-5-running-the-python-script">Step 5. Running the Python Script</h2>
-<pre><code>git clone https://github.com/Seeed-Studio/grove.py
-cd grove.py/grove
+<h3 id="step-3-install-ollama">Step 3. Install Ollama</h3>
+<p>Install Ollama using its official installation script, which automatically sets up the required services and permissions:</p>
+<pre><code>curl -fsSL https://ollama.com/install.sh | sh
 </code></pre>
-<pre><code>#!/bin/bash
-#
-: &lt;&lt;'EOF'
-The MIT License (MIT)
-
-Seeed-Studio Raspberry Pi Hats.
-  Peter Yang, turmary@126.com
-Copyright (C) 2018 Seeed Technology Co.,Ltd.
-EOF
-
-
-_DEBUG=0
-
-_install_extra_library=true
-
-_package_name=grove.py
-_seeed_source_list=/etc/apt/sources.list.d/seeed.list
-_seeed_apt_key=&quot;BB8F 40F3&quot;
-_repo_package_url=https://github.com/Seeed-Studio/$_package_name/archive/master.zip
-
-BLACKLIST=/etc/modprobe.d/raspi-blacklist.conf
-CONFIG=/boot/config.txt
-if [ $_DEBUG -ne 0 ]; then
-    BLACKLIST=./raspi-blacklist.conf
-    CONFIG=./config.txt
-fi
-
-
-set_config_var() {
-    lua - &quot;$1&quot; &quot;$2&quot; &quot;$3&quot; &lt;&lt;EOF &gt; &quot;$3.bak&quot;
-local key=assert(arg[1])
-local value=assert(arg[2])
-local fn=assert(arg[3])
-local file=assert(io.open(fn))
-local made_change=false
-for line in file:lines() do
-    if line:match(&quot;^#?%s*&quot;..key..&quot;=.*$&quot;) then
-        line=key..&quot;=&quot;..value
-        made_change=true
-    end
-    print(line)
-end
-
-if not made_change then
-    print(key..&quot;=&quot;..value)
-end
-EOF
-
-    mv &quot;$3.bak&quot; &quot;$3&quot;
-}
-
-get_i2c() {
-    egrep -q &quot;^(device_tree_param|dtparam)=([^,]*,)*i2c(_arm)?(=(on|true|yes|1))?(,.*)?$&quot; $CONFIG
-    echo $?
-}
-
-do_i2c() {
-    DEFAULT=--defaultno
-    if [ $(get_i2c) -eq 0 ]; then
-        DEFAULT=
-    fi
-    RET=$1
-    if [ $RET -eq 0 ]; then
-        SETTING=on
-        STATUS=enabled
-    elif [ $RET -eq 1 ]; then
-        SETTING=off
-        STATUS=disabled
-    else
-        return $RET
-    fi
-
-    set_config_var dtparam=i2c_arm $SETTING $CONFIG &amp;&amp;
-    if ! [ -e $BLACKLIST ]; then
-        touch $BLACKLIST
-    fi
-    sed $BLACKLIST -i -e &quot;s/^\(blacklist[[:space:]]*i2c[-_]bcm2708\)/#\1/&quot;
-    sed /etc/modules -i -e &quot;s/^#[[:space:]]*\(i2c[-_]dev\)/\1/&quot;
-    if ! grep -q &quot;^i2c[-_]dev&quot; /etc/modules; then
-        printf &quot;i2c-dev\n&quot; &gt;&gt; /etc/modules
-    fi
-    dtparam i2c_arm=$SETTING
-    modprobe i2c-dev
-}
-
-function apt_install() {
-    pkg_name=$1
-
-    for ((i = 0; i &lt; 3; i++)); {
-        apt-get install -y $pkg_name
-        pkg_status=$(dpkg -s $pkg_name | egrep &quot;Status:.*&quot; | awk '{ printf &quot;%s&quot;, $2; }')
-        [ &quot;$pkg_status&quot; == &quot;install&quot; ] &amp;&amp; return 0
-    }
-    return 1
-}
-
-alias  pip=' pip --no-cache-dir'
-alias pip3='pip3 --no-cache-dir'
-
-function pip_install() {
-    local fields
-    pkg_name=$1
-    pip_cmd=${2}
-
-    fields=( $pip_cmd )
-    for ((i = 0; i &lt; 3; i++)); {
-        $pip_cmd
-        pkg_status=$(${fields[0]} list --format=columns | egrep &quot;$pkg_name &quot; | awk '{ printf &quot;%s&quot;, $1; }')
-        [ &quot;$pkg_status&quot; == &quot;$pkg_name&quot; ] &amp;&amp; return 0
-    }
-    return 1
-}
-
-function platform_get() {
-    local dts_model platform
-
-    dts_model=$(strings /proc/device-tree/model)
-
-    case &quot;$dts_model&quot; in
-    TI\ AM335x*)
-        platform=bbb;;
-    Raspberry\ Pi*)
-        platform=rpi;;
-    Freescale\ i\.MX8MQ\ Phanbell)
-        platform=coral;;
-    NVIDIA\ Jetson\ Nano*)
-        platform=jetson_nano;;
-    *)
-        platform=&quot;unknown&quot;;;
-    esac
-    echo $platform
-}
-
-
-
-# Get platform type
-platform=$(platform_get)
-
-if [[ &quot;$platform&quot; == &quot;jetson_nano&quot; ]];then
-    _install_extra_library=false
-fi  
-
-do_uninstall=false
-if [ &quot;$1&quot; == &quot;uninstall&quot; ]; then
-    do_uninstall=true
-fi
-
-# Everything else needs to be run as root
-if [ $(id -u) -ne 0 ]; then
-    printf &quot;Script must be run as root. Try 'sudo $0'\n&quot;
-    exit 1
-fi
-
-### Uninstall this package ###
-if [ &quot;$do_uninstall&quot; == &quot;true&quot; ]; then
-    # To remove all users installaon
-    pip  uninstall -y $_package_name
-    pip3 uninstall -y $_package_name
-    apt-get -y remove python-grove-py
-    apt-get -y remove python3-grove-py
-    exit 0
-fi
-
-# install dependencies
-### add repository
-if [ ! -f $_seeed_source_list ]; then
-    case &quot;$platform&quot; in
-    coral)
-        code_name=&quot;mendel-beaker&quot;;;
-    rpi)
-        code_name=&quot;stretch&quot;;;
-    jetson_nano)
-        code_name=&quot;bionic&quot;;;
-    *)
-        code_name=&quot;unknown&quot;;;
-    esac
-    echo &quot;deb https://seeed-studio.github.io/pi_repo/ $code_name main&quot; | tee $_seeed_source_list
-fi
-
-### add public GPG key
-if ! apt-key list | egrep &quot;$_seeed_apt_key&quot; &gt; /dev/null; then
-    curl https://seeed-studio.github.io/pi_repo/public.key | apt-key add -
-fi
-
-
-
-## Initial installation
-r=0
-
-## Update apt source
-apt -y update
-
-case &quot;$platform&quot; in
-coral)
-    apt_install python-pip
-    apt_install python3-pip
-    apt_install python-setuptools
-    apt_install python3-setuptools
-    apt_install python-wheel
-    apt_install python3-wheel
-
-    ## install library enum
-    ;;
-jetson_nano)
-
-    apt_install python-pip  
-    apt_install python3-pip
-    apt_install python-setuptools
-    apt_install python3-setuptools
-    apt_install python-wheel
-    apt_install python3-wheel
-    pushd .
-    cd `dirname $0`
-    cp ./udev/jetson-nano/99-tegra-i2cset.rules /etc/udev/rules.d/
-    popd    
-    ;;
-rpi)
-    apt_install python-pip  
-    apt_install python3-pip
-
-    ### install I2C ###
-    if [ $(get_i2c) -ne 0 ]; then
-        # enable i2c interface
-        echo Enable I2C interface ...
-        do_i2c 0
-    fi
-    echo I2C interface enabled...
-
-    ## install library raspberry-gpio-python
-    (( r == 0 )) &amp;&amp; { apt_install python-rpi.gpio;  r=$?; }
-    (( r == 0 )) &amp;&amp; { apt_install python3-rpi.gpio; r=$?; }
-    ;;
-
-*)
-    echo &quot;unsupport platform $platform, abort ...&quot;
-    exit 1
-    ;;
-esac
-
-## install MRAA &amp; UPM
-### libmraa
-(( r == 0 )) &amp;&amp; { apt_install libmraa1;    r=$?; }
-
-### python2
-(( r == 0 )) &amp;&amp; { apt_install python-mraa; r=$?; }
-(( r == 0 )) &amp;&amp; { apt_install python-upm;  r=$?; }
-
-### python3
-(( r == 0 )) &amp;&amp; { apt_install python3-mraa;r=$?; }
-(( r == 0 )) &amp;&amp; { apt_install python3-upm; r=$?; }
-
-## install library libbma456
-if [[ &quot;$_install_extra_library&quot; == &quot;true&quot; ]];then
-    (( r == 0 )) &amp;&amp; { apt_install libbma456; r=$?; }
-fi
-
-## install library libbmi088
-if [[ &quot;$_install_extra_library&quot; == &quot;true&quot; ]];then
-    (( r == 0 )) &amp;&amp; { apt_install libbmi088; r=$?; }
-fi
-
-## install library rpi-ws281x
-if [ &quot;X$platform&quot; == &quot;Xrpi&quot; ]; then
-    (( r == 0 )) &amp;&amp; { pip_install rpi-ws281x 'pip  install rpi-ws281x'; r=$?; }
-    (( r == 0 )) &amp;&amp; { pip_install rpi-ws281x 'pip3 install rpi-ws281x'; r=$?; }
-fi
-
-## install library smbus
-(( r == 0 )) &amp;&amp; { pip_install smbus  'pip  install smbus'; r=$?; }
-(( r == 0 )) &amp;&amp; { pip_install smbus  'pip3 install smbus'; r=$?; }
-
-## install library smbus2
-(( r == 0 )) &amp;&amp; { pip_install smbus2 'pip  install smbus2'; r=$?; }
-(( r == 0 )) &amp;&amp; { pip_install smbus2 'pip3 install smbus2'; r=$?; }
-
-## install library bme680
-
-(( r == 0 )) &amp;&amp; { pip_install bme680 'pip  install bme680'; r=$?; }
-(( r == 0 )) &amp;&amp; { pip_install bme680 'pip3 install bme680'; r=$?; }
-
-## install library rpi-vl53l0x
-if [[ &quot;$_install_extra_library&quot; == &quot;true&quot; ]];then
-    (( r == 0 )) &amp;&amp; { pip_install rpi-vl53l0x 'pip  install rpi-vl53l0x'; r=$?; }
-    (( r == 0 )) &amp;&amp; { pip_install rpi-vl53l0x 'pip3 install rpi-vl53l0x'; r=$?; }
-fi
-
-## install library sgp30
-(( r == 0 )) &amp;&amp; { pip_install sgp30 'pip  install sgp30'; r=$?; }
-(( r == 0 )) &amp;&amp; { pip_install sgp30 'pip3 install sgp30'; r=$?; }
-# install this python repository
-(( r == 0 )) &amp;&amp; { pip_install grove.py &quot;pip  install --upgrade $_repo_package_url&quot;; r=$?; }
-(( r == 0 )) &amp;&amp; { pip_install grove.py &quot;pip3 install --upgrade $_repo_package_url&quot;; r=$?; }
-(( r == 0 )) &amp;&amp; { which grove_button &gt; /dev/null; r=$?; }
-
-(( r != 0 )) &amp;&amp; {
-    echo &quot;-------------------------------------------------------&quot;
-    echo &quot;     Grove.py installation FAILED, FAILED, FAILED      &quot;
-    echo &quot;-------------------------------------------------------&quot;
-    exit 1
-}
-
-sync
-sleep 1
-sync 
-
-echo &quot;#######################################################&quot;
-echo &quot;  Lastest Grove.py from github install complete   !!!!!&quot;
-echo &quot;#######################################################&quot;
-exit 0
+<pre><code>&gt;&gt;&gt; Adding ollama user to video group...
+&gt;&gt;&gt; Adding current user to ollama group...
+&gt;&gt;&gt; Creating ollama systemd service...
+&gt;&gt;&gt; Enabling and starting ollama service...
+Created symlink /etc/systemd/system/default.target.wants/ollama.service → /etc/systemd/system/ollama.service.
+&gt;&gt;&gt; NVIDIA JetPack ready.
+&gt;&gt;&gt; The Ollama API is now available at 127.0.0.1:11434.
+&gt;&gt;&gt; Install complete. Run &quot;ollama&quot; from the command line.
 </code></pre>
-<h2 id="step-6-executing-the-script">Step 6. Executing the script</h2>
-<pre><code>python3 grove_oled_display_128x64.py
+<p>Ollama is now ready to run locally, leveraging your Jetson’s GPU for efficient LLM inference.</p>
+<h3 id="step-4-explore-the-ollama-cli">Step 4. Explore the  Ollama CLI</h3>
+<p>Ollama provides a CLI to manage and interact with models. To view available commands:</p>
+<pre><code>ollama
+Usage:
+  ollama [flags]
+  ollama [command]
+
+Available Commands:
+  serve       Start ollama
+  create      Create a model from a Modelfile
+  show        Show information for a model
+  run         Run a model
+  stop        Stop a running model
+  pull        Pull a model from a registry
+  push        Push a model to a registry
+  list        List models
+  ps          List running models
+  cp          Copy a model
+  rm          Remove a model
+  help        Help about any command
+
+Flags:
+  -h, --help      help for ollama
+  -v, --version   Show version information
+
+Use &quot;ollama [command] --help&quot; for more information about a command.
+</code></pre>
+<h3 id="step-5-list-available-models">Step 5. List Available Models</h3>
+<p>Check the preloaded models available in Ollama:</p>
+<pre><code>$ ollama list
+NAME                     ID              SIZE      MODIFIED
+llama3:latest            365c0bd3c000    4.7 GB    4 weeks ago
+codellama:latest         8fdf8f752f6e    3.8 GB    4 months ago
+codellama:7b-instruct    8fdf8f752f6e    3.8 GB    4 months ago
+llama3:8b                365c0bd3c000    4.7 GB    4 months ago
+mistral:latest           61e88e884507    4.1 GB    9 months ago
+llama2:latest            78e26419b446    3.8 GB    10 months ago
+</code></pre>
+<h3 id="step-6-run-a-model">Step 6. Run a model</h3>
+<p>Run the llama3 model and perform tasks like generating Python code:</p>
+<pre><code>ollama run llama3
+&gt;&gt;&gt; &gt; Can you write a Python script to calculate the factorial of a number?
+Sure! Here’s the code:
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+num = int(input(&quot;Enter a number: &quot;))
+print(f&quot;The factorial of {num} is {factorial(num)}&quot;)
+</code></pre>
+<h2 id="integrating-open-webui-with-ollama">Integrating Open WebUI with Ollama</h2>
+<p>Open WebUI complements Ollama by providing an intuitive web-based interface to manage and interact with LLMs.</p>
+<h2 id="step-1-stop-the-ollama-service">Step 1: Stop the Ollama Service</h2>
+<p>Before proceeding, stop the system-wide Ollama service to avoid conflicts when running it in Docker:</p>
+<pre><code>sudo systemctl disable ollama
+</code></pre>
+<h2 id="step-2-run-ollama-with-docker">Step 2. Run Ollama with Docker</h2>
+<p>Deploy Ollama as a Docker container with GPU support:</p>
+<pre><code>sudo docker run -d --gpus=all --runtime=nvidia -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+
+</code></pre>
+<h2 id="step-3-run-open-webui">Step 3. Run Open WebUI</h2>
+<p>Run Open WebUI with GPU acceleration in a separate Docker container:</p>
+<pre><code>sudo docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda
+</code></pre>
+<h2 id="step-4-verify-running-containers">Step 4. Verify Running Containers</h2>
+<p>Ensure both Ollama and Open WebUI containers are running correctly:</p>
+<pre><code>sudo docker ps
+CONTAINER ID   IMAGE                                COMMAND               CREATED          STATUS                            PORTS                                           NAMES
+dee2d1fbe4cf   ghcr.io/open-webui/open-webui:cuda   &quot;bash start.sh&quot;       10 seconds ago   Up 6 seconds (health: starting)   0.0.0.0:3000-&gt;8080/tcp, :::3000-&gt;8080/tcp       open-webui
+9fd89a4fa908   ollama/ollama                        &quot;/bin/ollama serve&quot;   52 seconds ago   Up 48 seconds                     0.0.0.0:11434-&gt;11434/tcp, :::11434-&gt;11434/tcp   ollama
 </code></pre>
 <h2 id="results">Results:</h2>
-<p><img alt="Image5" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/50yqp064c16et785wu1g.png" /></p>
+<pre><code>cuda: Pulling from open-webui/open-webui
+6d29a096dd42: Pull complete
+6fab32a80202: Pull complete
+610eb561c31b: Pull complete
+50c0fb1f456e: Pull complete
+ae5672aeb8ae: Pull complete
+4f4fb700ef54: Pull complete
+639718444375: Pull complete
+5dcf97af08b1: Pull complete
+ea9079f84622: Pull complete
+e3fc97a4f07a: Pull complete
+a538afa31f12: Pull complete
+86ede3d9066a: Pull complete
+a5aa461a25d1: Pull complete
+6acc9cdc9b03: Pull complete
+1920af2d5f9d: Pull complete
+Digest: sha256:781acd8f2b45bdf45ac9a89fa80d52a6a966d9e1e7b55fbb5f0f1397ce5d9515
+Status: Downloaded newer image for ghcr.io/open-webui/open-webui:cuda
+843100c8d64d0ab9ea78fd64f4ffced0a62ce8783c850ce66d7ebb890f102e5a
+</code></pre>
+<pre><code>ajeetraina@ajeetraina-desktop:~$ sudo docker ps
+[sudo] password for ajeetraina:
+CONTAINER ID   IMAGE                                COMMAND           CREATED         STATUS                     PORTS                                       NAMES
+843100c8d64d   ghcr.io/open-webui/open-webui:cuda   &quot;bash start.sh&quot;   4 minutes ago   Up 4 minutes (unhealthy)   0.0.0.0:3000-&gt;8080/tcp, :::3000-&gt;8080/tcp   open-webui
+</code></pre>
+<h2 id="bundled-installation-of-open-webui-with-ollama">Bundled Installation of Open WebUI with Ollama</h2>
+<p>For a simplified setup, you can use a bundled Docker image that integrates both Open WebUI and Ollama.</p>
+<h3 id="using-gpu">Using GPU</h3>
+<p>This installation method uses a single container image that bundles Open WebUI with Ollama, allowing for a streamlined setup via a single command. Choose the appropriate command based on your hardware setup:</p>
+<pre><code>sudo docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+</code></pre>
+<h3 id="using-cpu-only">Using CPU only</h3>
+<p>For CPU Only: If you're not using a GPU, use this command instead:</p>
+<pre><code>sudo docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+</code></pre>
+<p>Both commands facilitate a built-in, hassle-free installation of both Open WebUI and Ollama, ensuring that you can get everything up and running swiftly.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Once configured, Open WebUI can be accessed at http://localhost:3000, while Ollama operates at http://localhost:11434. This setup provides a seamless and GPU-accelerated environment for running and managing LLMs locally on NVIDIA Jetson devices.</p>
+<p>This guide showcases the power and versatility of NVIDIA Jetson devices when paired with Ollama and Open WebUI, enabling advanced AI workloads at the edge with ease and efficiency.</p>
 
 
 
